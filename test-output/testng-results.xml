@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Hi..!]]>
+    </line>
+    <line>
+      <![CDATA[ Title is matching= actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[valid Username: admin]]>
+    </line>
+    <line>
+      <![CDATA[valid password: manager]]>
+    </line>
+    <line>
+      <![CDATA[ Title is matching= actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[ Title is matching= actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Username: ]]>
+    </line>
+    <line>
+      <![CDATA[Invalid password: ]]>
+    </line>
+    <line>
+      <![CDATA[Element is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Actual Error message :Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[ Expected Error message: Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[Both Error Messages are Matching.....]]>
+    </line>
+    <line>
+      <![CDATA[================================]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Username: ]]>
+    </line>
+    <line>
+      <![CDATA[Invalid password: ]]>
+    </line>
+    <line>
+      <![CDATA[Element is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Actual Error message :Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[ Expected Error message: Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[Both Error Messages are Matching.....]]>
+    </line>
+    <line>
+      <![CDATA[================================]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Username: ]]>
+    </line>
+    <line>
+      <![CDATA[Invalid password: ]]>
+    </line>
+    <line>
+      <![CDATA[Element is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Actual Error message :Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[ Expected Error message: Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[Both Error Messages are Matching.....]]>
+    </line>
+    <line>
+      <![CDATA[================================]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Username: ]]>
+    </line>
+    <line>
+      <![CDATA[Invalid password: ]]>
+    </line>
+    <line>
+      <![CDATA[Element is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Actual Error message :Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[ Expected Error message: Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[Both Error Messages are Matching.....]]>
+    </line>
+    <line>
+      <![CDATA[================================]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Username: ]]>
+    </line>
+    <line>
+      <![CDATA[Invalid password: ]]>
+    </line>
+    <line>
+      <![CDATA[Element is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Actual Error message :Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[ Expected Error message: Username or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[Both Error Messages are Matching.....]]>
+    </line>
+    <line>
+      <![CDATA[================================]]>
+    </line>
+    <line>
+      <![CDATA[ Title is matching= actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Element is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Actual Version :actiTIME 2020.1 Pro]]>
+    </line>
+    <line>
+      <![CDATA[ Expected  Version: actiTIME 2020.1 Pro]]>
+    </line>
+    <line>
+      <![CDATA[Both Versions are Matching.....]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="148588" started-at="2019-12-08T13:21:58Z" finished-at="2019-12-08T13:24:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="148588" started-at="2019-12-08T13:21:58Z" finished-at="2019-12-08T13:24:26Z">
+      <class name="com.actitime.tests.ValidLoginLogoutTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.tests.ValidLoginLogoutTest@604ed9f0]" name="preCondition" is-config="true" duration-ms="23891" started-at="2019-12-08T13:22:31Z" finished-at="2019-12-08T13:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="testValidLoginLogout()[pri:1, instance:com.actitime.tests.ValidLoginLogoutTest@604ed9f0]" name="testValidLoginLogout" duration-ms="12291" started-at="2019-12-08T13:22:55Z" finished-at="2019-12-08T13:23:07Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1222,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'LAPTOP-6GEIL6I9', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 18648, moz:profile: C:\Users\Shwetha\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a63722f6-8948-477d-8b8f-ccc95f715a6d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1222,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'LAPTOP-6GEIL6I9', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 18648, moz:profile: C:\Users\Shwetha\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a63722f6-8948-477d-8b8f-ccc95f715a6d
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.actitime.pages.EnterTimeTrackerPage.clickOnLogOut(EnterTimeTrackerPage.java:26)
+at com.actitime.tests.ValidLoginLogoutTest.testValidLoginLogout(ValidLoginLogoutTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ Title is matching= actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[valid Username: admin]]>
+            </line>
+            <line>
+              <![CDATA[valid password: manager]]>
+            </line>
+            <line>
+              <![CDATA[ Title is matching= actiTIME - Enter Time-Track]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.tests.ValidLoginLogoutTest@604ed9f0]" name="postCondition" is-config="true" duration-ms="311" started-at="2019-12-08T13:23:07Z" finished-at="2019-12-08T13:23:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLoginLogout status=FAILURE method=ValidLoginLogoutTest.testValidLoginLogout()[pri:1, instance:com.actitime.tests.ValidLoginLogoutTest@604ed9f0] output= Title is matching= actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.ValidLoginLogoutTest -->
+      <class name="com.actitime.tests.InvalidLoginTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.tests.InvalidLoginTest@91161c7]" name="preCondition" is-config="true" duration-ms="26501" started-at="2019-12-08T13:23:08Z" finished-at="2019-12-08T13:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.actitime.tests.InvalidLoginTest@91161c7]" name="testInvalidLogin" duration-ms="21089" started-at="2019-12-08T13:23:34Z" finished-at="2019-12-08T13:23:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ Title is matching= actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Invalid Username: ]]>
+            </line>
+            <line>
+              <![CDATA[Invalid password: ]]>
+            </line>
+            <line>
+              <![CDATA[Element is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Actual Error message :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[ Expected Error message: Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[Both Error Messages are Matching.....]]>
+            </line>
+            <line>
+              <![CDATA[================================]]>
+            </line>
+            <line>
+              <![CDATA[Invalid Username: ]]>
+            </line>
+            <line>
+              <![CDATA[Invalid password: ]]>
+            </line>
+            <line>
+              <![CDATA[Element is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Actual Error message :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[ Expected Error message: Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[Both Error Messages are Matching.....]]>
+            </line>
+            <line>
+              <![CDATA[================================]]>
+            </line>
+            <line>
+              <![CDATA[Invalid Username: ]]>
+            </line>
+            <line>
+              <![CDATA[Invalid password: ]]>
+            </line>
+            <line>
+              <![CDATA[Element is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Actual Error message :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[ Expected Error message: Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[Both Error Messages are Matching.....]]>
+            </line>
+            <line>
+              <![CDATA[================================]]>
+            </line>
+            <line>
+              <![CDATA[Invalid Username: ]]>
+            </line>
+            <line>
+              <![CDATA[Invalid password: ]]>
+            </line>
+            <line>
+              <![CDATA[Element is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Actual Error message :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[ Expected Error message: Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[Both Error Messages are Matching.....]]>
+            </line>
+            <line>
+              <![CDATA[================================]]>
+            </line>
+            <line>
+              <![CDATA[Invalid Username: ]]>
+            </line>
+            <line>
+              <![CDATA[Invalid password: ]]>
+            </line>
+            <line>
+              <![CDATA[Element is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Actual Error message :Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[ Expected Error message: Username or Password is invalid. Please try again.]]>
+            </line>
+            <line>
+              <![CDATA[Both Error Messages are Matching.....]]>
+            </line>
+            <line>
+              <![CDATA[================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.tests.InvalidLoginTest@91161c7]" name="postCondition" is-config="true" duration-ms="0" started-at="2019-12-08T13:23:55Z" finished-at="2019-12-08T13:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=InvalidLoginTest.testInvalidLogin()[pri:2, instance:com.actitime.tests.InvalidLoginTest@91161c7] output= Title is matching= actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.InvalidLoginTest -->
+      <class name="com.actitime.tests.Demo">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.tests.Demo@5c3bd550]" name="preCondition" is-config="true" duration-ms="32971" started-at="2019-12-08T13:21:58Z" finished-at="2019-12-08T13:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="testA()[pri:0, instance:com.actitime.tests.Demo@5c3bd550]" name="testA" duration-ms="21" started-at="2019-12-08T13:22:31Z" finished-at="2019-12-08T13:22:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.actitime.tests.Demo.testA(Demo.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Hi..!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.tests.Demo@5c3bd550]" name="postCondition" is-config="true" duration-ms="333" started-at="2019-12-08T13:22:31Z" finished-at="2019-12-08T13:22:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testA status=FAILURE method=Demo.testA()[pri:0, instance:com.actitime.tests.Demo@5c3bd550] output=Hi..!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.Demo -->
+      <class name="com.actitime.tests.VerifyVersionTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.tests.VerifyVersionTest@6a4f787b]" name="preCondition" is-config="true" duration-ms="30934" started-at="2019-12-08T13:23:55Z" finished-at="2019-12-08T13:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyVersion()[pri:3, instance:com.actitime.tests.VerifyVersionTest@6a4f787b]" name="testVerifyVersion" duration-ms="194" started-at="2019-12-08T13:24:26Z" finished-at="2019-12-08T13:24:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ Title is matching= actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Element is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Actual Version :actiTIME 2020.1 Pro]]>
+            </line>
+            <line>
+              <![CDATA[ Expected  Version: actiTIME 2020.1 Pro]]>
+            </line>
+            <line>
+              <![CDATA[Both Versions are Matching.....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyVersion -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.tests.VerifyVersionTest@6a4f787b]" name="postCondition" is-config="true" duration-ms="1" started-at="2019-12-08T13:24:26Z" finished-at="2019-12-08T13:24:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyVersion status=SUCCESS method=VerifyVersionTest.testVerifyVersion()[pri:3, instance:com.actitime.tests.VerifyVersionTest@6a4f787b] output= Title is matching= actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.VerifyVersionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
